@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 0.7fr);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 200px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.title {
+    background-color: white;
+    width: auto;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
